@@ -9,7 +9,7 @@ btn.onclick = (event) => {
 
 function getWeather(city) {
   fetch(
-    `http://api.openweathermap.org/data/2.5/weather?q=${city},ua&appid=70e1ed322b02acbc57d443dd91065f3e`
+    `https://api.openweathermap.org/data/2.5/weather?q=${city},ua&appid=70e1ed322b02acbc57d443dd91065f3e`
   )
     .then(function (resp) {
       return resp.json();
