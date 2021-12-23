@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.header {
+}
+.header__top {
+    padding-bottom: 10px;
+}
+.header__main {
+  display: flex;
+  justify-content: center;
+}
+.header__main-card {
+  border: 1px solid green;
+  padding: 10px;
+  border-radius: 5px;
+}
+.header__main-card-city {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.header__main-card-country {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.header__main-card-degree {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.header__main-card-description {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.header__main-card-features {
+  text-align: center;
+  padding-bottom: 10px;
+  height: 100px;
+}
+.header__main-input {
+}
+.btn {
+  border-radius: 5px;
+  border: 1px solid white;
+}
+.btn:hover {
+  color: aliceblue;
+  background-color: black;
+}
+.btn:active {
+  border: 1px solid red;
+}
